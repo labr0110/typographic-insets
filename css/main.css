@@ -97,3 +97,31 @@ main > p:first-child::first-letter {
   font-size: 5rem;
   padding: 3rem 1rem 3rem 1rem;
   margin: 0 1rem 0 -3rem;
+}
+
+figure {
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  float: right;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: .5rem -9rem 1rem 1rem;
+  width: 300px;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+blockquote {
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  color: #333;
+  float: left;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: 1rem 1rem 1rem -9rem;
+  text-align: right;
+  width: 300px;
+}
