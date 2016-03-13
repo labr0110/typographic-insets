@@ -99,6 +99,10 @@ main > p:first-child::first-letter {
   margin: 0 1rem 0 -3rem;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 figure {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
@@ -107,10 +111,6 @@ figure {
   padding-bottom: .5rem;
   margin: .5rem -9rem 1rem 1rem;
   width: 300px;
-}
-
-figcaption {
-  font-style: italic;
 }
 
 blockquote {
